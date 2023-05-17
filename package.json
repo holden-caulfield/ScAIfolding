@@ -1,0 +1,26 @@
+{
+  "name": "scaifolding",
+  "version": "0.0.1",
+  "description": "An AI tool to code boilerplate by analogy",
+  "main": "bin/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "echo node bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "scaifold": "./bin/index.js"
+  },
+  "keywords": [
+    "cli",
+    "ai",
+    "scaffolding"
+  ],
+  "author": "JP Saraceno",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^10.0.1",
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1"
+  }
+}
