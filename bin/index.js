@@ -1,6 +1,7 @@
 import { program } from "commander";
-import { readFile, writeFile } from "../lib/files.js";
 import inquirer from "inquirer";
+
+import { readFile, writeFile } from "../lib/files.js";
 import OpenAIRequest from "../lib/openai.js";
 
 const buildPrompt = (inputFileContents, instructions) => `
